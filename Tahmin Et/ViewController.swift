@@ -256,7 +256,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         if String(gelenSayi1.text!) == String(gelenSayi2.text!)  {
             
-            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz ve Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Hata", message: "Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
             let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:nil)
             alert.addAction(okbutton)
             self.present(alert, animated: true, completion: nil)
@@ -266,7 +266,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
         else if String(gelenSayi1.text!) == String(gelenSayi3.text!) {
             
-            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz ve Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Hata", message: "Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
             let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
             alert.addAction(okbutton)
             self.present(alert, animated: true, completion: nil)
@@ -275,7 +275,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
         else if String(gelenSayi1.text!) == String(gelenSayi4.text!) {
             
-            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz ve Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Hata", message: "Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
             let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
             alert.addAction(okbutton)
             self.present(alert, animated: true, completion: nil)
@@ -284,7 +284,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
         else if String(gelenSayi2.text!) == String(gelenSayi3.text!) {
             
-            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz ve Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Hata", message: "Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
             let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
             alert.addAction(okbutton)
             self.present(alert, animated: true, completion: nil)
@@ -293,7 +293,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
         else if String(gelenSayi2.text!) == String(gelenSayi4.text!) {
             
-            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz ve Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Hata", message: "Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
             let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
             alert.addAction(okbutton)
             self.present(alert, animated: true, completion: nil)
@@ -302,7 +302,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
         else if String(gelenSayi3.text!) == String(gelenSayi4.text!) {
             
-            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz ve Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Hata", message: "Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
             let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:nil)
             alert.addAction(okbutton)
             self.present(alert, animated: true, completion: nil)
@@ -311,7 +311,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         else if  String(gelenSayi1.text!) == "" {
             
-            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz ve Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz", preferredStyle: UIAlertController.Style.alert)
             let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:nil)
             alert.addAction(okbutton)
             self.present(alert, animated: true, completion: nil)
@@ -320,7 +320,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         else if  String(gelenSayi2.text!) == "" {
             
-            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz ve Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz", preferredStyle: UIAlertController.Style.alert)
             let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
             alert.addAction(okbutton)
             self.present(alert, animated: true, completion: nil)
@@ -329,7 +329,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         else if  String(gelenSayi3.text!) == "" {
             
-            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz ve Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz", preferredStyle: UIAlertController.Style.alert)
             let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:  nil)
             alert.addAction(okbutton)
             self.present(alert, animated: true, completion: nil)
@@ -339,11 +339,55 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
         else if  String(gelenSayi4.text!) == "" {
             
-            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz ve Aynı Rakamlar Olamaz", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Hata", message: "Boş Bırakılmaz", preferredStyle: UIAlertController.Style.alert)
             let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
             alert.addAction(okbutton)
             self.present(alert, animated: true, completion: nil )
             self.count = count - 1
+            
+        }  else if  Int(gelenSayi1.text!)! > 9  {
+            
+            let alert = UIAlertController(title: "Hata", message: "Sadece Rakam Giriniz", preferredStyle: UIAlertController.Style.alert)
+            let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
+            alert.addAction(okbutton)
+            self.present(alert, animated: true, completion: nil )
+            self.count = count - 1
+            
+        } else if  Int(gelenSayi2.text!)! > 9  {
+            
+            let alert = UIAlertController(title: "Hata", message: "Sadece Rakam Giriniz", preferredStyle: UIAlertController.Style.alert)
+            let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
+            alert.addAction(okbutton)
+            self.present(alert, animated: true, completion: nil )
+            self.count = count - 1
+            
+        } else if  Int(gelenSayi3.text!)! > 9  {
+            
+            let alert = UIAlertController(title: "Hata", message: "Sadece Rakam Giriniz", preferredStyle: UIAlertController.Style.alert)
+            let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
+            alert.addAction(okbutton)
+            self.present(alert, animated: true, completion: nil )
+            self.count = count - 1
+            
+        } else if  Int(gelenSayi4.text!)! > 9  {
+            
+            let alert = UIAlertController(title: "Hata", message: "Sadece Rakam Giriniz", preferredStyle: UIAlertController.Style.alert)
+            let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
+            alert.addAction(okbutton)
+            self.present(alert, animated: true, completion: nil )
+            self.count = count - 1
+            
+        }   else if articount == 4 {
+            
+            let alert = UIAlertController(title: "Süper", message: "Tebrikler Bildiniz", preferredStyle: UIAlertController.Style.alert)
+            let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
+            let replaybutton = UIAlertAction(title: "Replay", style: UIAlertAction.Style.default) { (UIAlertAction) in
+
+            self.viewDidLoad() 
+            }
+            alert.addAction(replaybutton)
+            alert.addAction(okbutton)
+            self.present(alert, animated: true, completion: nil )
             
         } else {
     
@@ -354,6 +398,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         eksicount = 0
         
         }
+        
+   
     }
     
     
